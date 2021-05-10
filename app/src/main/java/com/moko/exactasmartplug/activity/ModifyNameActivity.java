@@ -56,7 +56,7 @@ public class ModifyNameActivity extends BaseActivity {
                 return null;
             }
         };
-        etDeviceName.setFilters(new InputFilter[]{new InputFilter.LengthFilter(9), inputFilter});
+        etDeviceName.setFilters(new InputFilter[]{new InputFilter.LengthFilter(16), inputFilter});
         String deviceName = MokoSupport.getInstance().advName;
         etDeviceName.setText(deviceName);
         etDeviceName.setSelection(deviceName.length());
