@@ -191,6 +191,7 @@ orderTasks.add(OrderTaskAssembler.readElectricity());
 orderTasks.add(OrderTaskAssembler.readElectricityConstant());
 orderTasks.add(OrderTaskAssembler.readEnergyHistory());
 orderTasks.add(OrderTaskAssembler.readEnergyHistoryToday());
+orderTasks.add(OrderTaskAssembler.readPowerReportInterval());
 orderTasks.add(OrderTaskAssembler.readEnergySavedParams());
 orderTasks.add(OrderTaskAssembler.readEnergyTotal());
 orderTasks.add(OrderTaskAssembler.readFirmwareVersion());
